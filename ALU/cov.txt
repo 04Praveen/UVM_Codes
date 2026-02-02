@@ -1,0 +1,69 @@
+COVERGROUP COVERAGE:
+-----------------------------------------------------------------------------------------------
+Covergroup                                             Metric       Goal    Status               
+                                                                                              
+-----------------------------------------------------------------------------------------------
+ TYPE /top_sv_unit/cov/cg                             100.00%        100    Covered              
+    covered/total bins:                                    42         42                      
+    missing/total bins:                                     0         42                      
+    % Hit:                                            100.00%        100                      
+    Coverpoint cg::cg_a                               100.00%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                        100.00%        100                      
+        bin low_range                                      80          1    Covered              
+        bin mid_range                                      67          1    Covered              
+        bin high_range                                     54          1    Covered              
+    Coverpoint cg::cg_b                               100.00%        100    Covered              
+        covered/total bins:                                 3          3                      
+        missing/total bins:                                 0          3                      
+        % Hit:                                        100.00%        100                      
+        bin low_range                                      76          1    Covered              
+        bin mid_range                                      60          1    Covered              
+        bin high_range                                     65          1    Covered              
+    Coverpoint cg::cg_sel                             100.00%        100    Covered              
+        covered/total bins:                                 4          4                      
+        missing/total bins:                                 0          4                      
+        % Hit:                                        100.00%        100                      
+        bin auto[0]                                        54          1    Covered              
+        bin auto[1]                                        54          1    Covered              
+        bin auto[2]                                        50          1    Covered              
+        bin auto[3]                                        43          1    Covered              
+    Coverpoint cg::cg_result                          100.00%        100    Covered              
+        covered/total bins:                                32         32                      
+        missing/total bins:                                 0         32                      
+        % Hit:                                        100.00%        100                      
+        bin auto[0]                                        22          1    Covered              
+        bin auto[1]                                        13          1    Covered              
+        bin auto[2]                                         7          1    Covered              
+        bin auto[3]                                         3          1    Covered              
+        bin auto[4]                                        11          1    Covered              
+        bin auto[5]                                         6          1    Covered              
+        bin auto[6]                                        12          1    Covered              
+        bin auto[7]                                         7          1    Covered              
+        bin auto[8]                                         9          1    Covered              
+        bin auto[9]                                         9          1    Covered              
+        bin auto[10]                                        5          1    Covered              
+        bin auto[11]                                        5          1    Covered              
+        bin auto[12]                                        5          1    Covered              
+        bin auto[13]                                       12          1    Covered              
+        bin auto[14]                                       11          1    Covered              
+        bin auto[15]                                       12          1    Covered              
+        bin auto[16]                                        3          1    Covered              
+        bin auto[17]                                        4          1    Covered              
+        bin auto[18]                                        4          1    Covered              
+        bin auto[19]                                        1          1    Covered              
+        bin auto[20]                                        3          1    Covered              
+        bin auto[21]                                        3          1    Covered              
+        bin auto[22]                                        3          1    Covered              
+        bin auto[23]                                        4          1    Covered              
+        bin auto[24]                                        4          1    Covered              
+        bin auto[25]                                        5          1    Covered              
+        bin auto[26]                                        4          1    Covered              
+        bin auto[27]                                        2          1    Covered              
+        bin auto[28]                                        3          1    Covered              
+        bin auto[29]                                        4          1    Covered              
+        bin auto[30]                                        4          1    Covered              
+        bin auto[31]                                        1          1    Covered              
+
+TOTAL COVERGROUP COVERAGE: 100.00%  COVERGROUP TYPES: 1
